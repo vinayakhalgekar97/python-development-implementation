@@ -24,11 +24,11 @@ print(boys, girls)
 # By default, input() function returns the user input in form of a string. If any user wants to take user input as int or float, we need to typecast it.
 
 # Print Numbers in Python
-x = int(input("Enter a int number: "))
+x = int(input("Enter your age: "))
 print(x)
 
 # Print Float/Decimal Number in Python
-y = float(input("Enter a float number: "))
+y = float(input("Enter your weight: "))
 print(y)
 
 # Find DataType of Input in Python
