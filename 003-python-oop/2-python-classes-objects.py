@@ -55,7 +55,3 @@ print("Updating instance variable, Dog 2: ", dog2.name)
 Dog.species = "Feline"
 print("Updating class variable, Dog 1: ", dog1.species)
 print("Updating class variable, Dog 2: ", dog2.species)
-
-"Additional Important Concepts in Python Classes and Objects"
-
-"1. Getter and Setter Methods"
