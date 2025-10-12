@@ -16,3 +16,13 @@ Note: If you don't specify the mode, Python uses 'r' (read mode) by default.
 
 Closing a File: The file.close() method closes the file and releases the system resources. If the file was opened in write or append mode, closing ensures that all changes are properly saved.
 """
+file = open("./upload/index.txt", "r")
+print(file.read())
+
+"Checking File Properties: Once the file is open, we can check some of its properties:"
+print(f"Filename: {file.name}")
+print(f"Mode: {file.mode}")
+print(f"Is file closed: {file.closed}")
+
+file.close()
+print(f"Is file closed: {file.closed}")
